@@ -2,6 +2,13 @@
 
 This is an abridged version of the Software Carpentry "Version Control with Git" lesson, designed to be completed in approximately 60 minutes. It covers the essential concepts and commands needed to start using Git for version control.
 
+## Prerequisites
+
+Before starting this lesson, you will need:
+
+1. **A GitHub account** — Create a free account at [github.com](https://github.com) if you don't already have one.
+2. **Git installed on your computer** — Follow the installation instructions for your operating system here: [Installing Git](https://swcarpentry.github.io/git-novice/#installing-git)
+
 ## Table of Contents
 
 1. [Automated Version Control](#1-automated-version-control)
