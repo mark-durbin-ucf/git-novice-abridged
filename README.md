@@ -14,6 +14,7 @@ This is an abridged version of the Software Carpentry "Version Control with Git"
 8. [Appendix](#appendix)
    - [Intermediate Topics: Collaboration, Conflicts, and Branching](#intermediate-topics-collaboration-conflicts-and-branching)
    - [Quick Reference](#quick-reference)
+   - [Nano Quick Reference](#nano-quick-reference)
    - [Attribution](#attribution)
 
 ---
@@ -118,6 +119,8 @@ Create a file:
 ```bash
 nano guacamole.md
 ```
+
+> **Using nano:** `nano guacamole.md` opens the file for editing. Type your text, then press `Ctrl+O` followed by `Enter` to save, and `Ctrl+X` to exit. See the [Nano Quick Reference](#nano-quick-reference) in the Appendix for more detail.
 
 ```markdown
 # Guacamole
@@ -377,6 +380,19 @@ When your team is ready to adopt a branching strategy, [Git Flow](https://www.at
 | Add a remote            | `git remote add origin <url>`          |
 | Push to remote          | `git push -u origin main`              |
 | Pull from remote        | `git pull origin main`                 |
+
+---
+
+### Nano Quick Reference
+
+Nano is a simple terminal-based text editor. Here's how to use it:
+
+1. **Open a file:** `nano filename.md`
+2. **Edit:** Type or modify text normally using your keyboard
+3. **Save:** Press `Ctrl+O`, then `Enter` to confirm the filename
+4. **Exit:** Press `Ctrl+X`
+
+If you've made unsaved changes when exiting, nano will ask if you want to save — press `Y` for yes, then `Enter`.
 
 ---
 
