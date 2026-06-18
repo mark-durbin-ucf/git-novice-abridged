@@ -12,6 +12,7 @@ This is an abridged version of the Software Carpentry "Version Control with Git"
 6. [Ignoring Things](#6-ignoring-things)
 7. [Remotes in GitHub](#7-remotes-in-github)
 8. [Appendix](#appendix)
+   - [Working with Git GUI Environments](#working-with-git-gui-environments)
    - [Intermediate Topics: Collaboration, Conflicts, and Branching](#intermediate-topics-collaboration-conflicts-and-branching)
    - [Quick Reference](#quick-reference)
    - [Nano Quick Reference](#nano-quick-reference)
@@ -347,6 +348,18 @@ _Image: Software Carpentry, [CC-BY 4.0](https://creativecommons.org/licenses/by/
 ---
 
 ## Appendix
+
+### Working with Git GUI Environments
+
+Several tools allow you to interact with Git repositories using a Graphical User Interface (GUI):
+
+- [Visual Studio Code](https://code.visualstudio.com/) — a code editor with built-in Git integration
+- [GitHub Desktop](https://desktop.github.com/) — a dedicated Git GUI application
+- [GitHub](https://github.com/) — web-based repository management with point-and-click Git operations
+
+While these tools are not covered in this lesson, the core modify-add-commit cycle remains the same. However, different GUI tools may use different names for the same concepts — just as Git uses the `add` command to stage files and the `commit` command to create save points, a GUI might present these as buttons labeled "Stage," "Commit," or something else entirely. Understanding the underlying concepts from this lesson will help you navigate any Git interface you encounter.
+
+---
 
 ### Intermediate Topics: Collaboration, Conflicts, and Branching
 
